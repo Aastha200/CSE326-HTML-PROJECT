@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>login page</title>
+<style>
+    .log{
+        padding-top: 10%;
+        text-align:center;
+        background:url("photos/Background-Images-For-Websites-043.jpg");
+        background-repeat: repeat;
+        background-position: center;
+    }
+    h1{
+        color:blueviolet;
+    }
+    .d{
+        padding:0.5rem 0.5rem;
+    }
+    .tb{
+cursor: pointer;
+display: inline-block;
+background-color: #373737;
+border: 1px #000 solid;
+border-radius: 50px;
+padding: 7px 16px;
+line-height:1.2;
+text-align: center;
+text-decoration: none;
+color: aliceblue;
+}
+
+</style>
+<script>
+    function f1(){
+        document.getElementById("t1")
+        
+        
+    }
+    function f2(){
+
+    
+        a=prompt("enter new password")
+        b=prompt("confirm password")
+        confirm("Save new password")
+    }
+</script>
+</head>
+<body>
+    <div class="log">
+    <h1>LOG-IN PAGE</h1>
+    
+    <form>
+        <label>Enter your email id:</label>
+        <input type="text" id="t1"><br><br>
+        <label>Password:</label>
+        <input type="text" id="t2"><br><br>
+        <B>OR</B><br>
+        <button class="tb">sign in with google</button>
+        
+<div class="d">
+        <input type="submit" value="log-in" id="p1" onclick="f1()">
+        <input type="button" value="Forgot password" id="p1" onclick="f2()">
+    </div>
+        
+</form>
+    </div>
+
+</body>
+<html>
